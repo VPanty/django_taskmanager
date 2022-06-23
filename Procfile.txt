@@ -1,1 +1,1 @@
-web: gunicorn dep:app
+web: gunicorn --pythonpath django_taskmanager taskmanager.wsgi
