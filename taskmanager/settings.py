@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'd9%n3u0-r*=2k9cv1h+(s!^m+qm(3^
 # DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['stormy-atoll-63448.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
